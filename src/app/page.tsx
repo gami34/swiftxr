@@ -77,8 +77,10 @@ export default function Page() {
       {/* Header */}
       <header className="w-full px-6 py-4 bg-white border-b flex items-center justify-between">
         <h1 className="text-lg font-bold tracking-tight">
-          SwiftXR 3D Mini Editor, for{" "}
-          <span className="font-semibold text-black">MMEREMNWANNE, Gideon</span>
+          SwiftXR 3D Mini Editor
+          <span className="font-semibold px-2 py-1 rounded-lg bg-blue-600/30 text-blue-600">
+            MMEREMNWANNE, GIDEON
+          </span>
         </h1>
         <div className="flex items-center gap-2">
           <Input
