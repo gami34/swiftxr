@@ -76,8 +76,8 @@ export default function Page() {
     <div className="min-h-screen flex flex-col bg-gray-50">
       {/* Header */}
       <header className="w-full px-6 py-4 bg-white border-b flex items-center justify-between">
-        <h1 className="text-lg font-bold tracking-tight">
-          SwiftXR 3D Mini Editor
+        <h1 className="text-lg font-bold tracking-tight flex space-x-1">
+          <span>SwiftXR 3D Mini Editor</span>
           <span className="font-semibold ml-2 px-2 py-1 rounded-lg bg-blue-600/30 text-blue-600">
             MMEREMNWANNE, GIDEON
           </span>
