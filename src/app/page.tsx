@@ -94,7 +94,7 @@ export default function Page() {
       </header>
 
       <p className="text-base bg-orange-100/50 px-2 py-2 rounded-lg">
-        Note: Double click to add hobspot to your Models after upload.
+        Note: Double click to add Hotspots to your Models after upload.
       </p>
 
       {/* Main 3D Editor */}
