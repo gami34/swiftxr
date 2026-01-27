@@ -12,7 +12,6 @@ import {
   DialogTitle,
   DialogFooter,
 } from "@/components/ui/dialog";
-import { PlusIcon } from "lucide-react";
 import { GLBModel } from "./GLBModel";
 import { HotspotMarker } from "./HotspotMarker";
 import { HotspotList } from "./HotspotList";
