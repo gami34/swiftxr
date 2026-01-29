@@ -120,3 +120,35 @@
     @apply bg-background text-foreground;
   }
 }
+
+.gjs-cv-canvas,
+.gjs-cv-canvas iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.gjs-frame-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gjs-block {
+  padding: 0 !important;
+  width: 100% !important;
+  min-height: auto !important;
+}
+
+/* Fit icons properly */
+.gjs-block svg {
+  width: 100%;
+}
+
+.three-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

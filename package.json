@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack -p 4000",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@grapesjs/studio-sdk": "^1.0.57",
+    "@grapesjs/studio-sdk-plugins": "^1.0.32",
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-alert-dialog": "^1.1.15",
@@ -43,6 +45,8 @@
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
+    "grapesjs": "^0.22.14",
+    "grapesjs-tailwindcss-plugin": "^0.1.10",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.563.0",
     "next": "^16.1.5",

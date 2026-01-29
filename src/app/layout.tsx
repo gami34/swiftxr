@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import "@grapesjs/studio-sdk/style";
+import "@grapesjs/studio-sdk/dist/style.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,6 +26,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <script
+        async
+        src="https://tailwindcss.com/docs/installation#using-tailwind-via-cdnd"
+      ></script>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

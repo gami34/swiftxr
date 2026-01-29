@@ -1,5 +1,6 @@
 import React from "react";
-import type { Hotspot } from "./types";
+import { Hotspot } from "../../types/interface";
+import { XIcon } from "lucide-react";
 
 interface HotspotListProps {
   hotspots: Hotspot[];
@@ -22,7 +23,7 @@ export function HotspotList({ hotspots, onRemove }: HotspotListProps) {
                 onClick={() => onRemove(h.id)}
                 aria-label="Remove hotspot"
               >
-                ×
+                <XIcon />
               </button>
             </li>
           ))}
